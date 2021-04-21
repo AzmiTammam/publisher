@@ -72,13 +72,13 @@ header.home {
     background-position: center center;
     background-attachment: fixed;
     position: relative;
-    z-index: -3;
+    z-index: 1;
     min-height: 100vh;
 }
 
 header.home .overlay {
     background-color: #4d52b6e3;
-    z-index: -2;
+    z-index: 2;
     position: relative;
     padding-top: 125px;
     padding-bottom: 200px;
