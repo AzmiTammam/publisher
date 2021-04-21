@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: whitesmoke;
+    direction: rtl;
+}
+
+nav.navbar {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    border-bottom: 1px solid transparent;
+    z-index: 20;
+    text-align: right;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.navbar-nav .nav-item a {
+    color: whitesmoke;
+    padding: 7px 10px;
+    margin-left: 5px;
+}
+
+.navbar-nav li .nav-link.active {
+    color: #fff;
+    background-color: #4d52b6;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-left: 5px;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #fff;
+    background-color: #4d52b6;
+    border-radius: 5px;
+}
+
+header.home {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -3;
+    min-height: 100vh;
+}
+
+header.home .overlay {
+    background-color: #4d52b6e3;
+    z-index: -2;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 185px;
+}
+
+header.home .overlay .text h1 {
+    color: whitesmoke;
+    margin: 50px 0 15px;
+    font-weight: 700;
+}
+
+header.home .overlay .text p {
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+
+header.home .overlay .text .download-button p {
+    color: black;
+    font-weight: normal;
+    display: inline-block;
+}
+
+header.home .overlay .text p span {
+    font-weight: 700;
+}
+
+header.home .overlay .text .download-button {
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+header.home .overlay .download-button img {
+    width: 40px;
+}
+
+header.home .overlay .icon {
+    font-size: 45px;
+}
+
+header.home .overlay .apple {
+    padding-bottom: 9px;
+    padding-top: 7px;
+}
