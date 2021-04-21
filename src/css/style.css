@@ -39,6 +39,32 @@ nav.navbar {
     border-radius: 5px;
 }
 
+nav.navbar.noTransparrent {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+nav.navbar.noTransparrent button.navbar-toggler {
+    margin: 30px auto;
+}
+
+nav.navbar.noTransparrent button.navbar-toggler span {
+    color: #16aeca;
+}
+
+nav.navbar.noTransparrent .navbar-brand img {
+    width: 80%;
+}
+
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
+    color: #000;
+}
+
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
+    color: #fff;
+    background-color: #4D52B6;
+}
+
 header.home {
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -100,7 +126,7 @@ header.home .overlay .apple {
 }
 
 section.books {
-    background-color: #e8e2ff;
+    background-color: #fff;
     padding: 90px 0;
 }
 
@@ -160,7 +186,7 @@ section.books .card a {
 
 section.contact {
     border-top: 1px solid #dddddd;
-    background-color: #e8e2ff;
+    background-color: #ededf9;
     padding: 90px 0;
 }
 
@@ -189,33 +215,34 @@ section.contact p .icon {
 }
 
 footer {
-    background-color: #171717;
-    color: #919191;
+    background-color: #4D52B6;
+    color: whitesmoke;
 }
 
 footer .newsletter h3 {
     font-size: 20px;
     margin-top: 25px;
-    margin-left: 25px;
-    color: #4348ac;
+    margin-left: 45px;
+    color: whitesmoke;
 }
 
 footer .newsletter .btn-email {
     margin: 20px 0;
     color: whitesmoke;
-    padding: 15px 0;
-    background-color: #292929;
+    padding: 13px 20px;
+    background-color: #6165b9;
+    background: #fff;
 }
 
 footer .newsletter .send {
     margin: 10px 0px 10px 2px;
     color: whitesmoke;
-    padding: 15px 10px;
-    background-color: #292929;
+    padding: 13px 10px;
+    background-color: #6165b9;
 }
 
 footer .faq h4 {
-    color: #4348ac;
+    color: whitesmoke;
     font-size: 20px;
     margin-top: 25px;
 }
@@ -227,17 +254,17 @@ footer .faq .line::before {
     top: 60px;
     width: 50px;
     height: 2px;
-    background-color: #5c5c5c;
+    background-color: #a3a3a3;
 }
 
 footer .newsletter h3.line::before {
     content: "";
     position: absolute;
-    right: 350px;
+    right: 325px;
     top: 60px;
     width: 50px;
     height: 2px;
-    background-color: #5c5c5c;
+    background-color: #a3a3a3;
 }
 
 footer .faq p {
@@ -245,12 +272,30 @@ footer .faq p {
 }
 
 footer .copyright {
-    background-color: #111111;
-}
+    background-color: #1a1a1a;
+} 
 
 footer .copyright p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 78px;
     color: #919191;
     margin-bottom: 0;
+}
+
+footer .copyright ul {
+    list-style: none;
+    margin-top: 10px;
+}
+footer .copyright ul li {
+    display: inline;
+    font-size: 35px;
+}
+
+footer .copyright ul li a {
+    text-decoration: none;
+    color: #4D52B6;
+}
+
+footer .copyright ul li a:hover {
+    color: #6d72c5;
 }
