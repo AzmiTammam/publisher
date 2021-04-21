@@ -180,11 +180,6 @@ section.books .card img {
     margin-right: auto;
 }
 
-section.books .card a {
-    background-color: #4348ac;
-    border-color: #4348ac;
-}
-
 section.contact {
     border-top: 1px solid #dddddd;
     background-color: #ededf9;
@@ -215,10 +210,7 @@ section.contact p .icon {
     font-size: 25px;
 }
 
-footer {
-    background-color: #4D52B6;
-    color: whitesmoke;
-}
+
 
 footer .newsletter h3 {
     font-size: 20px;
@@ -448,20 +440,12 @@ section.book .text .custom-btn-book a:active:focus {
     color: #000;
 }
 
-footer.ux {
-    background-color: #803f1a !important;
+footer.ux .copyright ul li a.ux:hover {
+    color: #854c2c !important;
 }
 
 footer.ux .newsletter button.ux {
     background-color: #854c2c !important;
-}
-
-footer.ux .copyright ul li a.ux {
-    color: #803f1a !important;
-}
-
-footer.ux .copyright ul li a.ux:hover {
-    color: #854c2c !important;
 }
 
 /* ------------------------------------------ Online Work Page ----------------------------------------- */
@@ -556,17 +540,13 @@ section.book .text .custom-btn-book1 a:active:focus {
     color: #000;
 }
 
-footer.on {
-    background-color: #2da3e2 !important;
-}
+
 
 footer.on .newsletter button.on {
     background-color: #44abe2 !important;
 }
 
-footer.on .copyright ul li a.on {
-    color: #2da3e2 !important;
-}
+
 
 footer.on .copyright ul li a.on:hover {
     color: #458aaf !important;
