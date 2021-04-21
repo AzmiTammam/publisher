@@ -229,7 +229,7 @@ footer .newsletter h3 {
 
 footer .newsletter .btn-email {
     margin: 20px 0;
-    color: whitesmoke;
+    color: #000;
     padding: 13px 20px;
     background-color: #6165b9;
     background: #fff;
@@ -462,4 +462,112 @@ footer.ux .copyright ul li a.ux {
 
 footer.ux .copyright ul li a.ux:hover {
     color: #854c2c !important;
+}
+
+/* ------------------------------------------ Online Work Page ----------------------------------------- */
+
+header.home2 {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+header.home2 .overlay {
+    background-color: #2da3e2dc;
+    z-index: 2;
+    position: relative;
+    padding-top: 125px;
+    padding-bottom: 200px;
+}
+
+header.home2 .text h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 35px;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+header.home2 .text h4{
+    color: #fff;
+    font-size: 25px;
+}
+
+header.home2 .text button a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header.home2 .text button {
+    margin: 40px 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.466);
+    background-color: transparent;
+}
+
+header.home2 .text button:hover,
+header.home2 .text button:active:hover,
+header.home2 .text button:focus:hover {
+    background-color: white;
+    border: 1px solid #2da3e2d3;
+    color: black;
+    font-weight: bold;
+}
+
+header.home2 .text button a:hover,
+header.home2 .text button a:active:hover,
+header.home2 .text button a:focus:hover {
+    color: black;
+    font-weight: bold;
+}
+
+section.book .text .custom-btn-book1 {
+    margin-left: 15px;
+    background-color: #2da3e2;
+    color: white;
+    border: 0;
+}
+
+section.book .text .custom-btn-book1 a {
+    color: white;
+}
+
+section.book .text .custom-btn-book1:hover,
+section.book .text .custom-btn-book1:active,
+section.book .text .custom-btn-book1:focus,
+section.book .text .custom-btn-book1:active:hover,
+section.book .text .custom-btn-book1:active:focus {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #eded;
+}
+
+section.book .text .custom-btn-book1 a:hover,
+section.book .text .custom-btn-book1 a:active,
+section.book .text .custom-btn-book1 a:focus,
+section.book .text .custom-btn-book1 a:active:hover,
+section.book .text .custom-btn-book1 a:active:focus {
+    color: #000;
+}
+
+footer.on {
+    background-color: #2da3e2 !important;
+}
+
+footer.on .newsletter button.on {
+    background-color: #44abe2 !important;
+}
+
+footer.on .copyright ul li a.on {
+    color: #2da3e2 !important;
+}
+
+footer.on .copyright ul li a.on:hover {
+    color: #458aaf !important;
 }

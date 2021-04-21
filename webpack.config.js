@@ -94,6 +94,10 @@ module.exports = {
             filename: 'uxbook.html',
             template: './src/uxbook.html',
         }),
+        new HtmlWebpackPlugin({
+            filename: 'onbook.html',
+            template: './src/onbook.html',
+        }),
 
         new MiniCssExtractPlugin({ filename: 'css/style.css' }),
 
