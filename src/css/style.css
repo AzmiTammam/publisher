@@ -53,8 +53,8 @@ header.home .overlay {
     background-color: #4d52b6e3;
     z-index: -2;
     position: relative;
-    padding-top: 90px;
-    padding-bottom: 185px;
+    padding-top: 125px;
+    padding-bottom: 200px;
 }
 
 header.home .overlay .text h1 {
@@ -66,7 +66,7 @@ header.home .overlay .text h1 {
 header.home .overlay .text p {
     color: whitesmoke;
     font-weight: 600;
-    margin: 0 0 20px;
+    margin: 0 0 70px;
 }
 
 header.home .overlay .text .download-button p {
@@ -97,4 +97,63 @@ header.home .overlay .icon {
 header.home .overlay .apple {
     padding-bottom: 9px;
     padding-top: 7px;
+}
+
+section.books {
+    background-color: #e8e2ff;
+    padding: 90px 0;
+}
+
+section.books .text-heading h2 {
+    color: rgb(44, 44, 44);
+    font-size: 26px;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+section.books .text-heading h2::after {
+    content: '';
+    height: 210px;
+    /* //You can change this if you want smaller/bigger borders */
+    width: 1px;
+    position: absolute;
+    right: 568px;
+    top: -60px;
+    /* // If you want to set a smaller height and center it, change this value */
+    background-color: #4348ac;
+    /* // The color of your border */
+    transform: rotate(90deg);
+}
+
+section.books .text-book h2 {
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+section.books .text-book1 h2 {
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+
+section.books .card {
+    max-width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+section.books .card img {
+    height: 350px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.books .card a {
+    background-color: #4348ac;
+    border-color: #4348ac;
 }
