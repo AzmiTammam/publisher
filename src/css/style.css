@@ -60,7 +60,8 @@ nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
     color: #000;
 }
 
-nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover,
+nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
     color: #fff;
     background-color: #4D52B6;
 }
@@ -273,7 +274,7 @@ footer .faq p {
 
 footer .copyright {
     background-color: #1a1a1a;
-} 
+}
 
 footer .copyright p {
     font-size: 18px;
@@ -286,6 +287,7 @@ footer .copyright ul {
     list-style: none;
     margin-top: 10px;
 }
+
 footer .copyright ul li {
     display: inline;
     font-size: 35px;
@@ -298,4 +300,166 @@ footer .copyright ul li a {
 
 footer .copyright ul li a:hover {
     color: #6d72c5;
+}
+
+/* -------------------------------------------- UX Page ----------------------------------------------- */
+
+header.home1 {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+header.home1 .overlay {
+    background-color: #803f1adc;
+    z-index: 2;
+    position: relative;
+    padding-top: 125px;
+    padding-bottom: 200px;
+}
+
+header.home1 .text h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 35px;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+header.home1 .text h4{
+    color: #fff;
+    font-size: 25px;
+}
+
+header.home1 .text button a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header.home1 .text button {
+    margin: 40px 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.466);
+    background-color: transparent;
+}
+
+header.home1 .text button:hover,
+header.home1 .text button:active:hover,
+header.home1 .text button:focus:hover {
+    background-color: white;
+    border: 1px solid #803f1adc;
+    color: black;
+    font-weight: bold;
+}
+
+header.home1 .text button a:hover,
+header.home1 .text button a:active:hover,
+header.home1 .text button a:focus:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.custom-nav .nav-item a:hover {
+    color: #803f1adc !important;
+    background-color: #fff !important;
+    border-radius: 5px;
+}
+
+.custom-nav li .nav-link.active {
+    color: #803f1adc;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-left: 5px;
+}
+
+section.book {
+    padding: 90px 0;
+}
+.custom-slide .carousel-inner .carousel-item img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.custom-slide {
+    width: 400px;
+    border: 1px solid #e6e6e6;
+}
+
+.custom-slide a {
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    margin: 0px -15px;
+}
+
+.custom-slide a:hover,
+.custom-slide a:active,
+.custom-slide a:focus,
+.custom-slide a:active:hover,
+.custom-slide a:active:focus {
+    color: black;
+}
+
+section.book .text h4 {
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+section.book .text p {
+    color: #2b2b2b;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 20px 0 35px;
+}
+
+section.book .text .custom-btn-book {
+    margin-left: 15px;
+    background-color: #803f1a;
+    color: white;
+    border: 0;
+}
+
+section.book .text .custom-btn-book a {
+    color: white;
+}
+
+section.book .text .custom-btn-book:hover,
+section.book .text .custom-btn-book:active,
+section.book .text .custom-btn-book:focus,
+section.book .text .custom-btn-book:active:hover,
+section.book .text .custom-btn-book:active:focus {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #eded;
+}
+
+section.book .text .custom-btn-book a:hover,
+section.book .text .custom-btn-book a:active,
+section.book .text .custom-btn-book a:focus,
+section.book .text .custom-btn-book a:active:hover,
+section.book .text .custom-btn-book a:active:focus {
+    color: #000;
+}
+
+footer.ux {
+    background-color: #803f1a !important;
+}
+
+footer.ux .newsletter button.ux {
+    background-color: #854c2c !important;
+}
+
+footer.ux .copyright ul li a.ux {
+    color: #803f1a !important;
+}
+
+footer.ux .copyright ul li a.ux:hover {
+    color: #854c2c !important;
 }
