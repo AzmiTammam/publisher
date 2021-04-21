@@ -143,7 +143,7 @@ section.books .card {
     display: block;
     margin-left: auto;
     margin-right: auto;
-} 
+}
 
 section.books .card img {
     height: 350px;
@@ -156,4 +156,101 @@ section.books .card img {
 section.books .card a {
     background-color: #4348ac;
     border-color: #4348ac;
+}
+
+section.contact {
+    border-top: 1px solid #dddddd;
+    background-color: #e8e2ff;
+    padding: 90px 0;
+}
+
+section.contact .text-heading h2 {
+    color: rgb(44, 44, 44);
+    font-size: 26px;
+    margin-bottom: 35px;
+    line-height: 40px;
+}
+
+section.contact .text-heading h4 {
+    color: rgb(44, 44, 44);
+    font-size: 26px;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+section.contact p.call-us {
+    font-size: 20px;
+    line-height: 45px;
+}
+
+section.contact p .icon {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #171717;
+    color: #919191;
+}
+
+footer .newsletter h3 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #4348ac;
+}
+
+footer .newsletter .btn-email {
+    margin: 20px 0;
+    color: whitesmoke;
+    padding: 15px 0;
+    background-color: #292929;
+}
+
+footer .newsletter .send {
+    margin: 10px 0px 10px 2px;
+    color: whitesmoke;
+    padding: 15px 10px;
+    background-color: #292929;
+}
+
+footer .faq h4 {
+    color: #4348ac;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+footer .faq .line::before {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 60px;
+    width: 50px;
+    height: 2px;
+    background-color: #5c5c5c;
+}
+
+footer .newsletter h3.line::before {
+    content: "";
+    position: absolute;
+    right: 350px;
+    top: 60px;
+    width: 50px;
+    height: 2px;
+    background-color: #5c5c5c;
+}
+
+footer .faq p {
+    margin: 30px 0;
+}
+
+footer .copyright {
+    background-color: #111111;
+}
+
+footer .copyright p {
+    font-size: 15px;
+    line-height: 78px;
+    color: #919191;
+    margin-bottom: 0;
 }
