@@ -1,28 +1,7 @@
-$colors-for-first-page: #4348ac;
-$color-for-ux-page: #803f1a;
-$color-for-on-page: #2da3e2;
+@import '../scss/_variables';
+@import '../scss/_home';
+@import '../scss/_on';
+@import '../scss/_ux';
 
-footer {
-    background-color: $colors-for-first-page;
-    color: whitesmoke;
-}
 
-section.books .card a {
-    background-color: $colors-for-first-page;
-    border-color: $colors-for-first-page;
-}
 
-footer.ux {
-    background-color: $color-for-ux-page !important;
-}
-
-footer.on {
-    background-color: $color-for-on-page !important;
-}
-
-footer.ux .copyright ul li a.ux {
-    color: $color-for-ux-page !important;
-}
-footer.on .copyright ul li a.on {
-    color: $color-for-on-page !important;
-}
