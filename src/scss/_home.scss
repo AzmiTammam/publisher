@@ -1,9 +1,14 @@
 footer {
-    background-color: $purple-color;
-    color: whitesmoke;
+    @include footerColor(
+        $purple-color
+    );
+    @include fontColor (
+        $white-color
+    );
 }
 
 section.books .card a {
-    background-color: $purple-color;
-    border-color: $purple-color;
+    @include footerColor(
+        $purple-color
+    )
 }

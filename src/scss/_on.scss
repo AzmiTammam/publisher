@@ -1,5 +1,10 @@
 footer.on {
-    background-color: $light-blue-color;
+    @include footerColor(
+        $light-blue-color
+    );
+    @include fontColor (
+        $white-color
+    );
 }
 
 footer.on .copyright ul li a.on {

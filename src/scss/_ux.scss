@@ -1,5 +1,10 @@
 footer.ux {
-    background-color: $brown-color ;
+    @include footerColor(
+        $brown-color
+    );
+    @include fontColor (
+        $white-color
+    );
 }
 footer.ux .copyright ul li a.ux {
     color: $brown-color;

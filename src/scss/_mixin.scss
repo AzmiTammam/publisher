@@ -1,0 +1,7 @@
+@mixin footerColor ($color) {
+    background-color: $color;
+}
+
+@mixin fontColor ($fColor) {
+    color: $fColor;
+}
