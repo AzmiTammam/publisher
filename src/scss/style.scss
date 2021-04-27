@@ -308,7 +308,7 @@ header.home1 {
     background-attachment: fixed;
     position: relative;
     z-index: 1;
-    min-height: 100vh;
+    max-height: 85vh;
 }
 
 header.home1 .overlay {
@@ -316,7 +316,7 @@ header.home1 .overlay {
     z-index: 2;
     position: relative;
     padding-top: 125px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 header.home1 .text h2 {
@@ -463,7 +463,7 @@ header.home2 {
     background-attachment: fixed;
     position: relative;
     z-index: 1;
-    min-height: 100vh;
+    max-height: 85vh;
 }
 
 header.home2 .overlay {
@@ -471,7 +471,7 @@ header.home2 .overlay {
     z-index: 2;
     position: relative;
     padding-top: 125px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 header.home2 .text h2 {
